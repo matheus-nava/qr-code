@@ -1,0 +1,151 @@
+<title>AC2 · Tomie Ohtake</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --ground:#f4efe9;
+    --surface:#fdfaf6;
+    --ink:#2a1f1c;
+    --muted:#736661;
+    --line:#e6dcd2;
+    --accent:#d1421f;
+    --accent-soft:#f7ddd2;
+    --accent-ink:#9e2f14;
+    --shadow:0 1px 2px rgba(42,31,28,.05),0 8px 24px rgba(42,31,28,.06);
+  }
+  :root:not([data-theme="light"]){
+    @media (prefers-color-scheme: dark){
+      --ground:#181210;
+      --surface:#211917;
+      --ink:#f3eae6;
+      --muted:#b3a49d;
+      --line:#332723;
+      --accent:#f0653f;
+      --accent-soft:#3a2018;
+      --accent-ink:#f9a184;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#181210;
+    --surface:#211917;
+    --ink:#f3eae6;
+    --muted:#b3a49d;
+    --line:#332723;
+    --accent:#f0653f;
+    --accent-soft:#3a2018;
+    --accent-ink:#f9a184;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--ground);color:var(--ink);
+    font-family:"Figtree",system-ui,-apple-system,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased;
+    display:flex;justify-content:center;
+    padding:32px 20px 56px;
+  }
+  .wrap{width:100%;max-width:460px}
+  header{text-align:center;margin-bottom:28px}
+  .eyebrow{
+    display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--accent-ink);
+    background:var(--accent-soft);padding:5px 12px;border-radius:999px;
+  }
+  h1{
+    font-family:"Fraunces",Georgia,serif;font-weight:600;
+    font-size:2rem;line-height:1.1;margin:16px 0 6px;text-wrap:balance;
+  }
+  .sub{color:var(--muted);font-size:.95rem;margin:0}
+  section{margin-top:28px}
+  .sec-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+  .sec-head h2{
+    font-family:"Fraunces",Georgia,serif;font-weight:600;
+    font-size:1.02rem;margin:0;letter-spacing:.01em;
+  }
+  .sec-head .rule{flex:1;height:1px;background:var(--line)}
+  .links{display:flex;flex-direction:column;gap:10px}
+  a.link{
+    display:flex;align-items:center;gap:14px;text-decoration:none;
+    background:var(--surface);border:1px solid var(--line);border-radius:14px;
+    padding:14px 16px;color:var(--ink);box-shadow:var(--shadow);
+    transition:transform .12s ease,border-color .12s ease;
+  }
+  a.link:hover{transform:translateY(-2px);border-color:var(--accent)}
+  a.link:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .ico{
+    flex:none;width:38px;height:38px;border-radius:10px;
+    background:var(--accent-soft);color:var(--accent-ink);
+    display:grid;place-items:center;font-family:"Fraunces",serif;
+    font-weight:600;font-size:1rem;
+  }
+  .txt{min-width:0}
+  .txt .name{font-weight:600;font-size:.96rem;line-height:1.25}
+  .txt .host{font-size:.78rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .arrow{margin-left:auto;color:var(--muted);flex:none}
+  footer{text-align:center;margin-top:36px;color:var(--muted);font-size:.8rem}
+  @media (prefers-reduced-motion: reduce){a.link{transition:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Atividade AC2</span>
+    <h1>Tomie Ohtake</h1>
+    <p class="sub">Fontes de pesquisa e créditos das imagens</p>
+  </header>
+
+  <section>
+    <div class="sec-head"><h2>Fontes bibliográficas</h2><span class="rule"></span></div>
+    <div class="links">
+      <a class="link" href="https://www.sescsp.org.br/editorial/um-mergulho-na-obra-de-tomie-ohtake/" target="_blank" rel="noopener">
+        <span class="ico">S</span>
+        <span class="txt"><div class="name">Um mergulho na obra de Tomie Ohtake</div><div class="host">sescsp.org.br</div></span>
+        <span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://artsandculture.google.com/asset/complexo-ach%C3%A9-cultural-tomie-ohtake/-gEx7G2mP3vuwQ?hl=pt" target="_blank" rel="noopener">
+        <span class="ico">G</span>
+        <span class="txt"><div class="name">Complexo Aché Cultural Tomie Ohtake</div><div class="host">artsandculture.google.com</div></span>
+        <span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://www.instagram.com/p/DaRCvpKkaLw/?img_index=3" target="_blank" rel="noopener">
+        <span class="ico">I</span>
+        <span class="txt"><div class="name">Instagram — Publicação</div><div class="host">instagram.com</div></span>
+        <span class="arrow">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Fontes das imagens</h2><span class="rule"></span></div>
+    <div class="links">
+      <a class="link" href="https://www.instagram.com/p/DaRCvpKkaLw/?img_index=2" target="_blank" rel="noopener">
+        <span class="ico">I</span>
+        <span class="txt"><div class="name">Instagram — Imagem</div><div class="host">instagram.com</div></span>
+        <span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://ohtake.com.br/arquitetura/ohtake-cultural/" target="_blank" rel="noopener">
+        <span class="ico">O</span>
+        <span class="txt"><div class="name">Ohtake Cultural — Arquitetura</div><div class="host">ohtake.com.br</div></span>
+        <span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://commons.wikimedia.org/wiki/File:Instituto_Tomie_Ohtake_-_FCL_07.jpg" target="_blank" rel="noopener">
+        <span class="ico">W</span>
+        <span class="txt"><div class="name">Instituto Tomie Ohtake (foto)</div><div class="host">commons.wikimedia.org</div></span>
+        <span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://www.sescsp.org.br/editorial/um-ano-em-obras/" target="_blank" rel="noopener">
+        <span class="ico">S</span>
+        <span class="txt"><div class="name">SESC — Um ano em obras</div><div class="host">sescsp.org.br</div></span>
+        <span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://vejasp.abril.com.br/estabelecimento/sesc-vila-mariana/" target="_blank" rel="noopener">
+        <span class="ico">V</span>
+        <span class="txt"><div class="name">SESC Vila Mariana — Veja SP</div><div class="host">vejasp.abril.com.br</div></span>
+        <span class="arrow">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>Toque em qualquer item para abrir a fonte</footer>
+</div>
